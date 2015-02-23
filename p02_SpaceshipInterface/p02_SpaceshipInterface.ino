@@ -19,14 +19,14 @@ void loop() {
 
   // read the value of the switch
   // digitalRead() checks to see if there is voltage
-  // on the pin or not
+
   switchstate = digitalRead(2);
 
  
   if (switchstate == LOW) {
-    digitalWrite(3, HIGH); // turn the green LED on pin 3 on
-    digitalWrite(4, LOW);  // turn the red LED on pin 4 off
-    digitalWrite(5, LOW);  // turn the red LED on pin 5 off
+    digitalWrite(3, HIGH); // 
+    digitalWrite(4, LOW);  // 
+    digitalWrite(5, LOW);  //
   }
   
   else {
