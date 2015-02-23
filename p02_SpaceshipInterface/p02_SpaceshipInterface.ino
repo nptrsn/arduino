@@ -35,8 +35,8 @@ void loop() {
     digitalWrite(5, HIGH); // turn the red LED on pin 5 on
    
     delay(500);
-    digitalWrite(4, HIGH); // turn the red LED on pin 4 on
-    digitalWrite(5, LOW);  // turn the red LED on pin 5 off
+    digitalWrite(4, HIGH); // 
+    digitalWrite(5, LOW);  //
 
     delay(500);
   }
