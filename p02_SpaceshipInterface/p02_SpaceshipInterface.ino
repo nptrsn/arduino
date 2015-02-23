@@ -1,5 +1,6 @@
 /*
 Second Project. Uses Digital Write
+Light Modules
 */
 
 int switchstate = 0;
@@ -40,4 +41,3 @@ void loop() {
     delay(500);
   }
 }
-//Project 2//
