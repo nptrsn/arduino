@@ -9,3 +9,5 @@
 // Resistance is how much a compnent resists the flow of electrical energy (Ohm symbol)
 
 // Example: height of a cliff is the Voltage, the rocks tumbling down it is the Current, any brush or trees in the way is Resistance
+
+//Current will flow from position of least resistance to that of most resistance
