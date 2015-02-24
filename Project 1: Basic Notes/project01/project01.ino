@@ -11,3 +11,5 @@
 // Example: height of a cliff is the Voltage, the rocks tumbling down it is the Current, any brush or trees in the way is Resistance
 
 //Current will flow from position of least resistance to that of most resistance
+//With Direct Current (DC) the electricity flows one way
+//With Alternating Current (AC) the electricity flows multiple directions
