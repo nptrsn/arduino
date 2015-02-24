@@ -1,3 +1,5 @@
+//Early notes and principles for Arduino projects
+
 // Transducers: change other types of engergy into electrical energy and vice versa
   // Sensors: covert other forms of energy into electrical energy
   // Actuators: covert electrical energy into other types of energy
