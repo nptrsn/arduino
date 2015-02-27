@@ -13,13 +13,14 @@ void setup() {
 
 void loop() {
   int sensorVal = analogRead(sensorPin);
-  Serial.print("Sensor Value: ");
-  Serial.print(sensorVal);
+  // Commenting out all but Fahrenheit & C
+  //Serial.print("Sensor Value: ");
+  //Serial.print(sensorVal);
   //convert the sersnor into voltage
   float voltage = (sensorVal/1024.9) * 5.0;
   //print the voltage
-  Serial.print(", Volts: ");
-  Serial.print(voltage);
+  //Serial.print(", Volts: ");
+  //Serial.print(voltage);
   //print the Celcius Temp
   Serial.print(", Celcius degrees: ");
   //convert the voltage to Celcius temperature
@@ -30,6 +31,4 @@ void loop() {
   float TempF = (tempC * 9/5) + 32;
   Serial.print(", Fahrenheit degrees: ");
   Serial.println(tempF);
-  Serial.print(", second Temp F");
-  Serial.println(TempF);
 }
