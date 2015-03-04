@@ -31,8 +31,8 @@ void loop() {
   
   else {
     digitalWrite(3, LOW);  // turn pin 3's green LED off
-    digitalWrite(4, LOW);  // turn the red LED on pin 4 off
-    digitalWrite(5, HIGH); // turn the red LED on pin 5 on
+    digitalWrite(4, LOW);  // turn pin 4's green light off
+    digitalWrite(5, HIGH); // turn pin 5's red light off
    
     delay(500);
     digitalWrite(4, HIGH); // 
