@@ -31,12 +31,12 @@ void loop() {
   
   else {
     digitalWrite(3, HIGH);  // turn pin 3's green LED off
-    digitalWrite(4, LOW);  // turn pin 4's green light off
-    digitalWrite(5, HIGH); // turn pin 5's red light off
+    digitalWrite(4, HIGH);  // turn pin 4's green light off
+    digitalWrite(5, LOW; // turn pin 5's red light off
    
     delay(1000);
-    digitalWrite(4, HIGH); // 
-    digitalWrite(5, LOW);  //
+    digitalWrite(4, LOW); // 
+    digitalWrite(5, HIGH);  //
 
     delay(1000);
   }
