@@ -17,7 +17,7 @@ void setup() {
 
 void loop() {
 
-  // read the value of the switch
+  // read the value of the switch input
   // digitalRead() checks to see if there is voltage
 
   switchstate = digitalRead(2);
@@ -30,7 +30,7 @@ void loop() {
   }
   
   else {
-    digitalWrite(3, LOW);  // turn the green LED on pin 3 off
+    digitalWrite(3, LOW);  // turn pin 3's green LED off
     digitalWrite(4, LOW);  // turn the red LED on pin 4 off
     digitalWrite(5, HIGH); // turn the red LED on pin 5 on
    
