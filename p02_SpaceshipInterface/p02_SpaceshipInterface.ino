@@ -34,10 +34,10 @@ void loop() {
     digitalWrite(4, LOW);  // turn pin 4's green light off
     digitalWrite(5, HIGH); // turn pin 5's red light off
    
-    delay(500);
+    delay(200);
     digitalWrite(4, HIGH); // 
     digitalWrite(5, LOW);  //
 
-    delay(500);
+    delay(200);
   }
 }
