@@ -39,6 +39,12 @@ void loop() {
     digitalWrite(5, HIGH);  //
 
     delay(1000);
+    
+    delay(500);
+    digitalWrite(4, LOW); // 
+    digitalWrite(5, HIGH);  //
+    
   }
 }
 //End of Loop
+//Add Secondary Light panels below
