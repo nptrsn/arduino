@@ -19,7 +19,7 @@ void setup() {
 }
 
 void loop() {
-  Serial.println(stringOne);  // prints  "Sensor "
+  Serial.println(stringOne); 
 
   // adding a string to a string:
   stringOne += stringTwo;
