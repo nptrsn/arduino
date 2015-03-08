@@ -1,5 +1,15 @@
 /*
   Appending to Strings using the += operator and concat()
+
+ Examples of how to append different data types to strings
+
+ created 27 July 2010
+ modified 2 Apr 2012
+ by Tom Igoe
+
+ http://arduino.cc/en/Tutorial/StringAppendOperator
+
+ This example code is in the public domain.
  */
 
 String stringOne, stringTwo;
