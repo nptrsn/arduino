@@ -55,7 +55,6 @@ void loop() {
   stringTwo.concat(millis());
   Serial.println(stringTwo); 
 
-  // do nothing while true:
   while (true);
 }
 
