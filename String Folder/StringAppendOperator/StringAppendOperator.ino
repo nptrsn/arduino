@@ -20,41 +20,40 @@ void setup() {
 void loop() {
   Serial.println(stringOne); 
 
-  // adding a string to a string:
+ 
   stringOne += stringTwo;
-  Serial.println(stringOne);  // prints "Sensor value"
+  Serial.println(stringOne); 
 
-  // adding a constant string to a string:
+ 
   stringOne += " for input ";
-  Serial.println(stringOne);  // prints "Sensor value for input"
+  Serial.println(stringOne);  
 
-  // adding a constant character to a string:
+
   stringOne += 'A';
-  Serial.println(stringOne);   // prints "Sensor value for input A"
+  Serial.println(stringOne);  
 
-  // adding a constant integer to a string:
+
   stringOne += 0;
-  Serial.println(stringOne);   // prints "Sensor value for input A0"
+  Serial.println(stringOne);  
 
-  // adding a constant string to a string:
+
   stringOne += ": ";
-  Serial.println(stringOne);  // prints "Sensor value for input"
+  Serial.println(stringOne); 
 
-  // adding a variable integer to a string:
+ 
   stringOne += analogRead(A0);
-  Serial.println(stringOne);   // prints "Sensor value for input A0: 456" or whatever analogRead(A0) is
-
+  Serial.println(stringOne);   
   Serial.println("\n\nchanging the Strings' values");
   stringOne = "A long integer: ";
   stringTwo = "The millis(): ";
 
-  // adding a constant long integer to a string:
-  stringOne += 123456789;
-  Serial.println(stringOne);   // prints "A long integer: 123456789"
 
-  // using concat() to add a long variable to a string:
+  stringOne += 123456789;
+  Serial.println(stringOne);   
+
+
   stringTwo.concat(millis());
-  Serial.println(stringTwo); // prints "The millis(): 43534" or whatever the value of the millis() is
+  Serial.println(stringTwo); 
 
   // do nothing while true:
   while (true);
