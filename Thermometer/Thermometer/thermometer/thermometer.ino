@@ -2,7 +2,7 @@
 // Will serial print the current temperature, in intervals
 // Displayed in Celcius and Fahernheit
 
-// named constant for the pin the sensor is connected to
+// named constant for the pin the sensor is connected with
 const int sensorPin = A0;
 // room temperature in Celcius
 const float baselineTemp = 20.0;
