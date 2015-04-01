@@ -11,21 +11,6 @@
  * pushbutton attached from pin 2 to +5V
  * 10K resistor attached from pin 2 to ground
 
- * Note: On most Arduino boards, there is already an LED on the board
- connected to pin 13, so you don't need any extra components for this example.
-
-
- created 21 November 2006
- by David A. Mellis
- modified 30 Aug 2011
- by Limor Fried
- modified 28 Dec 2012
- by Mike Walters
-
- This example code is in the public domain.
-
- http://www.arduino.cc/en/Tutorial/Debounce
- */
 
 // constants won't change. They're used here to
 // set pin numbers:
